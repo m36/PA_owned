@@ -34,13 +34,12 @@
                 }
 
                 if ($.inArray(cur_manuf,['iZotope','Native Instruments'])>=0) {
-                   // $(this).find('.product-title a').css('color','#0A0A0A'); // mark my owned plugins
                     $(this).css({
-                        'filter'         : 'blur(3px)',
-                        '-webkit-filter' : 'blur(3px)',
-                        '-moz-filter'    : 'blur(3px)',
-                        '-o-filter'      : 'blur(3px)',
-                        '-ms-filter'     : 'blur(3px)'
+                        'filter'         : 'opacity(45%)',
+                        '-webkit-filter' : 'opacity(45%)',
+                        '-moz-filter'    : 'opacity(45%)',
+                        '-o-filter'      : 'opacity(45%)',
+                        '-ms-filter'     : 'opacity(45%)'
                     });
                 }
             });
