@@ -27,7 +27,7 @@
             var all_products = $(this);
             all_products.find('li.enabled').each(function() {
                 var cur_manuf = $(this).find('.product-manufacturer').text();
-                var cur_title = $(this).find('.product-manufacturer').text() + ' ' + $(this).find('.product-title').text();
+                var cur_title = cur_manuf + ' ' + $(this).find('.product-title').text();
                 if ($.inArray(cur_title,product_array)>=0) {
                     $(this).find('.product-title a').css('color','#27bd27'); // mark my owned plugins
                     $(this).css('background-color','#18c1184d');
