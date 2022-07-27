@@ -1,5 +1,5 @@
 # Plugin Alliance Add-On for Plugin Management
-Needs Chrome Extension "Tampermonkey"
+Needs Chrome Extension "Tampermonkey" (should also work in Greasemonkey for Firefox)
 
 ## Installation:
 - Install Tampermonkey: https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo
